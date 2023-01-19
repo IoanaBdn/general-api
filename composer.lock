@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3d88fa6639c9463d85260309c03bb68",
+    "content-hash": "98eb799824a931f2e4310cf14fdbca0a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -352,6 +352,58 @@
                 }
             ],
             "time": "2020-10-13T00:52:37+00:00"
+        },
+        {
+            "name": "drnxloc/laravel-simple-html-dom",
+            "version": "1.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drnxloc/laravel-simple-html-dom.git",
+                "reference": "1985c03754f747b7ef6da9afc90c97c86674f5ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/drnxloc/laravel-simple-html-dom/zipball/1985c03754f747b7ef6da9afc90c97c86674f5ce",
+                "reference": "1985c03754f747b7ef6da9afc90c97c86674f5ce",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Drnxloc\\LaravelHtmlDom\\HtmlDomParser": "Src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "S.C. Chen",
+                    "homepage": "http://sourceforge.net/projects/simplehtmldom/"
+                },
+                {
+                    "name": "Drnxloc",
+                    "email": "admin@drnxloc.com",
+                    "homepage": "https://github.com/Drnxloc-Dev"
+                }
+            ],
+            "description": "Composer adaptation of: A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way! Require PHP 5+. Supports invalid HTML. Find tags on an HTML page with selectors just like jQuery. Extract contents from HTML in a single line.",
+            "homepage": "https://github.com/Drnxloc-Dev/laravel-simple-html-dom",
+            "keywords": [
+                "dom",
+                "html",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/drnxloc/laravel-simple-html-dom/issues",
+                "source": "https://github.com/drnxloc/laravel-simple-html-dom/tree/1.9.1"
+            },
+            "time": "2021-04-18T11:17:38+00:00"
         },
         {
             "name": "egulias/email-validator",
